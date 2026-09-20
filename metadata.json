@@ -1,0 +1,6 @@
+{
+  "name": "NFWA Member Pocket",
+  "description": "Sunshine Pocket Therapy sovereign family health and clinical coordination for NFL matriarchs, partners, and alumnae.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

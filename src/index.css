@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-serif: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --color-surface: #fcf9f2;
+  --color-surface-low: #f6f3ec;
+  --color-surface-card: #fbf9f5;
+  --color-surface-high: #ebe8e1;
+  --color-obsidian: #0f0f10;
+  --color-gold: #c89b66;
+  --color-gold-tint: #fdcc92;
+  --color-border: #e6e1d8;
+  --color-taupe: #5a5854;
+}
+
+body {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fcf9f2;
+  color: #1c1c18;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif, .font-display, .font-editorial {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Custom scrollbars and refined utilities */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f6f3ec;
+}
+::-webkit-scrollbar-thumb {
+  background: #dcdad3;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c7c6ca;
+}
